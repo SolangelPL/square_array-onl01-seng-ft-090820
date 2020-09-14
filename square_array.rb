@@ -1,8 +1,10 @@
 
   
 def square_array(array)
-  array.each do |numbers|
-  numbers * numbers 
+  squares = [ ]
+  array.each do |number|
+  squares.push (number ** 2) 
   end
-  return square_array(array)|numbers * numbers|
+  return squares
 end
+
