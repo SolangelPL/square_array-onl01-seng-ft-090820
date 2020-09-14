@@ -4,7 +4,8 @@ def square_array(array)
   array.each do |numbers|
   numbers * numbers 
   end
-enddef square_array(array)
+end
+def square_array(array)
   array.collect do |numbers|
   numbers * numbers
   end 
